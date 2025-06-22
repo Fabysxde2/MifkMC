@@ -1,52 +1,143 @@
-[15:45:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:45:38] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[15:45:39] [ServerMain/INFO]: No existing world data, creating new world
-[15:45:40] [ServerMain/INFO]: Loaded 1174 recipes
-[15:45:40] [ServerMain/INFO]: Loaded 1271 advancements
-[15:45:41] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[15:45:41] [Server thread/INFO]: Loading properties
-[15:45:41] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[15:45:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:45:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:45:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[15:45:42] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[18:42:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:42:25] [ServerMain/INFO]: Loaded 1174 recipes
+[18:42:25] [ServerMain/INFO]: Loaded 1271 advancements
+[18:42:26] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[18:42:26] [Server thread/INFO]: Loading properties
+[18:42:26] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[18:42:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:42:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:42:27] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[15:45:42] [Server thread/INFO]: Default game type: SURVIVAL
-[15:45:42] [Server thread/INFO]: Generating keypair
-[15:45:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:45:42] [Server thread/INFO]: Using epoll channel type
-[15:45:42] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:45:42] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[15:45:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:45:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:45:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:45:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:45:42] [Server thread/INFO]: Preparing level "world"
-[15:45:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:45:53] [Server thread/INFO]: Time elapsed: 176 ms
-[15:45:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:45:53] [Server thread/INFO]: Time elapsed: 65 ms
-[15:45:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:45:53] [Server thread/INFO]: Time elapsed: 67 ms
-[15:45:53] [Server thread/INFO]: Running delayed init tasks
-[15:45:53] [Server thread/INFO]: Done (12.489s)! For help, type "help"
-[15:45:53] [Server thread/INFO]: *************************************************************************************
-[15:45:53] [Server thread/INFO]: This is the first time you're starting this server.
-[15:45:53] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
-[15:45:53] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
-[15:45:53] [Server thread/INFO]: *************************************************************************************
-[15:45:53] [Server thread/INFO]: Timings Reset
-[15:45:53] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[15:46:13] [User Authenticator #0/INFO]: UUID of player Fabysxde1 is 46d4e2ab-e3ee-3f05-9bbe-4b9527d8c7f9
-[15:46:14] [Server thread/INFO]: Fabysxde1 joined the game
-[15:46:14] [Server thread/INFO]: Fabysxde1[/127.101.9.185:54689] logged in with entity id 21 at ([world]-4.5, 64.0, -9.5)
-[15:47:24] [Server thread/INFO]: Made Fabysxde1 a server operator
-[15:47:31] [Server thread/INFO]: Fabysxde1 issued server command: /gamemode creative
-[15:47:31] [Server thread/INFO]: [Fabysxde1: Set own game mode to Creative Mode]
-[15:49:29] [Server thread/INFO]: Fabysxde1 lost connection: Disconnected
-[15:49:29] [Server thread/INFO]: Fabysxde1 left the game
-[15:49:34] [User Authenticator #1/INFO]: UUID of player Fabysxde1 is 46d4e2ab-e3ee-3f05-9bbe-4b9527d8c7f9
-[15:49:34] [Server thread/INFO]: Fabysxde1 joined the game
-[15:49:34] [Server thread/INFO]: Fabysxde1[/127.101.9.185:39627] logged in with entity id 800 at ([world]-24.481174250146072, 64.0, 30.520455042739282)
-[15:50:15] [Async Chat Thread - #0/INFO]: [Not Secure] <Fabysxde1> uJSBYGDHAS
+[18:42:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:42:28] [Server thread/INFO]: Default game type: SURVIVAL
+[18:42:28] [Server thread/INFO]: Generating keypair
+[18:42:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:42:28] [Server thread/INFO]: Using epoll channel type
+[18:42:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:42:28] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[18:42:28] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.8
+[18:42:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:42:29] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+[18:42:29] [Server thread/INFO]: [NametagEdit] Loading server plugin NametagEdit v4.5.23
+[18:42:29] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.9
+[18:42:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:42:29] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.8
+[18:42:30] [Server thread/INFO]:         __    
+[18:42:30] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.8
+[18:42:30] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:42:30] [Server thread/INFO]: 
+[18:42:30] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:42:30] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:42:31] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:42:31] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1415ms)
+[18:42:31] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.9
+[18:42:32] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
+[18:42:32] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[18:42:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:42:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:42:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:42:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:42:32] [Server thread/INFO]: Preparing level "world"
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.9
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: e98f406
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.7.0) is available! Downloading update...
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[18:42:32] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[18:42:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 493ms
+[18:42:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[18:42:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[18:42:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:42:33] [Server thread/INFO]: Time elapsed: 558 ms
+[18:42:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:42:34] [Server thread/INFO]: Time elapsed: 139 ms
+[18:42:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:42:34] [Server thread/INFO]: Time elapsed: 116 ms
+[18:42:34] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[18:42:36] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[18:42:36] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:42:36] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:42:36] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[18:42:36] [Server thread/INFO]: [Essentials] Found 3 files to convert...
+[18:42:36] [Server thread/INFO]: [Essentials] Converted 0/3
+[18:42:36] [Server thread/INFO]: [Essentials] Ban format update complete.
+[18:42:36] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[18:42:36] [Server thread/INFO]: [Essentials] Done converting ignore list.
+[18:42:36] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[18:42:36] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
+[18:42:36] [Server thread/INFO]: [Essentials] Done converting mail list.
+[18:42:36] [Server thread/INFO]: [Essentials] #===========================================================================#
+[18:42:36] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[18:42:36] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
+[18:42:36] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
+[18:42:36] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
+[18:42:36] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[18:42:36] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
+[18:42:36] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
+[18:42:36] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[18:42:36] [Server thread/INFO]: [Essentials] 
+[18:42:36] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
+[18:42:36] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
+[18:42:36] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
+[18:42:36] [Server thread/INFO]: [Essentials] #===========================================================================#
+[18:42:36] [Server thread/INFO]: [Essentials] Found ~3 files under "plugins/Essentials/userdata"...
+[18:42:36] [Server thread/INFO]: [Essentials] #===========================================================================#
+[18:42:36] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
+[18:42:36] [Server thread/INFO]: [Essentials] 
+[18:42:36] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
+[18:42:36] [Server thread/INFO]: [Essentials]  Total accounts processed: 3
+[18:42:36] [Server thread/INFO]: [Essentials] 
+[18:42:36] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
+[18:42:36] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[18:42:36] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
+[18:42:36] [Server thread/INFO]: [Essentials]  to us on GitHub:
+[18:42:36] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[18:42:36] [Server thread/INFO]: [Essentials] #===========================================================================#
+[18:42:36] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[18:42:36] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[18:42:37] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[18:42:37] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[18:42:37] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[18:42:37] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[18:42:37] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[18:42:37] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[18:42:37] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[18:42:37] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[18:42:37] [Server thread/INFO]: [Essentials] Using locale en
+[18:42:38] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:42:38] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:42:38] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[18:42:38] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[18:42:38] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[18:42:38] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.23
+[18:42:38] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_20_R3
+[18:42:38] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
+[18:42:38] [Server thread/INFO]: Running delayed init tasks
+[18:42:38] [Server thread/INFO]: Done (12.688s)! For help, type "help"
+[18:42:38] [Server thread/INFO]: Timings Reset
+[18:42:38] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:43:01] [User Authenticator #0/INFO]: UUID of player Fabysxde1 is 46d4e2ab-e3ee-3f05-9bbe-4b9527d8c7f9
+[18:43:02] [Server thread/INFO]: Fabysxde1 joined the game
+[18:43:02] [Server thread/INFO]: Fabysxde1[/127.101.9.185:58967] logged in with entity id 207 at ([world]4.214311634591294, 105.37048595367585, -0.6038623573517585)

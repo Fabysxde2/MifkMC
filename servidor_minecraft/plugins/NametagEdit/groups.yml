@@ -1,0 +1,21 @@
+Groups:
+  Admin:
+    Permission: nte.admin
+    Prefix: '&c'
+    Suffix: '&f'
+    SortPriority: 1
+  Moderator:
+    Permission: nte.moderator
+    Prefix: '&2'
+    Suffix: '&f'
+    SortPriority: 2
+  Operador:
+    Permission: Operador
+    Prefix: '&c&lOPERADOR &f'
+    Suffix: ''
+    SortPriority: -1
+  usuario:
+    Permission: Usuario
+    Prefix: '&7&lUSUARIO'
+    Suffix: ''
+    SortPriority: -1

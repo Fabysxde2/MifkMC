@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "uuid": "9c4b3115-b531-39b1-8132-2c77c402244f",
+    "name": "Pitogomoso50",
+    "created": "2025-06-22 16:54:32 +0000",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "9ec7155f-9a2b-3607-8cde-9ca05c5efca3",
+    "name": "pitogomoso50",
+    "created": "2025-06-22 16:56:56 +0000",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  }
+]
