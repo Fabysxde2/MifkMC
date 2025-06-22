@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1750612622117
-  login: 1750617782936
+  logout: 1750618687326
+  login: 1750618692123
 money: '0'
 last-account-name: Fabysxde1
 logoutlocation:
   world: 2d19aa73-5e2b-490e-8535-12171782e126
   world-name: world
-  x: 4.214311634591294
-  y: 105.37048595367585
-  z: -0.6038623573517585
-  yaw: -79.0665283203125
-  pitch: 77.84990692138672
+  x: 6.980892317168538
+  y: 93.0
+  z: -6.7633968964222175
+  yaw: 33.8780517578125
+  pitch: -7.499990940093994

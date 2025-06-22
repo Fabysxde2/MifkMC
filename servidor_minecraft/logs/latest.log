@@ -141,3 +141,15 @@
 [18:43:01] [User Authenticator #0/INFO]: UUID of player Fabysxde1 is 46d4e2ab-e3ee-3f05-9bbe-4b9527d8c7f9
 [18:43:02] [Server thread/INFO]: Fabysxde1 joined the game
 [18:43:02] [Server thread/INFO]: Fabysxde1[/127.101.9.185:58967] logged in with entity id 207 at ([world]4.214311634591294, 105.37048595367585, -0.6038623573517585)
+[18:53:23] [Server thread/INFO]: Fabysxde1 issued server command: /time set night
+[18:54:57] [Server thread/INFO]: Fabysxde1 lost connection: Disconnected
+[18:54:57] [Server thread/INFO]: Fabysxde1 left the game
+[18:57:02] [User Authenticator #1/INFO]: UUID of player Fabysxde1 is 46d4e2ab-e3ee-3f05-9bbe-4b9527d8c7f9
+[18:57:03] [Server thread/INFO]: Fabysxde1 joined the game
+[18:57:03] [Server thread/INFO]: Fabysxde1[/127.101.9.185:54123] logged in with entity id 1326 at ([world]4.759466541402986, 93.0, -6.937316438586783)
+[18:57:26] [Server thread/INFO]: Fabysxde1 issued server command: /msg Fabysxde1 hola
+[18:58:07] [Server thread/INFO]: Fabysxde1 lost connection: Disconnected
+[18:58:07] [Server thread/INFO]: Fabysxde1 left the game
+[18:58:11] [User Authenticator #2/INFO]: UUID of player Fabysxde1 is 46d4e2ab-e3ee-3f05-9bbe-4b9527d8c7f9
+[18:58:12] [Server thread/INFO]: Fabysxde1 joined the game
+[18:58:12] [Server thread/INFO]: Fabysxde1[/127.101.9.185:48267] logged in with entity id 1449 at ([world]6.980892317168538, 93.0, -6.7633968964222175)
