@@ -1,236 +1,264 @@
-[19:09:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:09:19] [ServerMain/INFO]: Loaded 1174 recipes
-[19:09:19] [ServerMain/INFO]: Loaded 1271 advancements
-[19:09:20] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[19:09:20] [Server thread/INFO]: Loading properties
-[19:09:20] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
-[19:09:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:09:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:09:22] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[19:28:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:28:52] [ServerMain/INFO]: Loaded 1174 recipes
+[19:28:52] [ServerMain/INFO]: Loaded 1271 advancements
+[19:28:53] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[19:28:53] [Server thread/INFO]: Loading properties
+[19:28:53] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[19:28:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:28:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:28:54] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:09:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[19:09:22] [Server thread/INFO]: Default game type: SURVIVAL
-[19:09:22] [Server thread/INFO]: Generating keypair
-[19:09:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:09:22] [Server thread/INFO]: Using epoll channel type
-[19:09:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:09:22] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[19:09:23] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.8
-[19:09:23] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:09:23] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
-[19:09:23] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.0.2
-[19:09:23] [Server thread/INFO]: [NametagEdit] Loading server plugin NametagEdit v4.5.23
-[19:09:23] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.1
-[19:09:23] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.0
-[19:09:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:09:23] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.8
-[19:09:24] [Server thread/INFO]:         __    
-[19:09:24] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.8
-[19:09:24] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:09:24] [Server thread/INFO]: 
-[19:09:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:09:24] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:09:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:09:25] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1567ms)
-[19:09:25] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.0
-[19:09:26] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
-[19:09:26] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[19:09:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:09:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:09:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:09:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:09:26] [Server thread/INFO]: Preparing level "world"
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.0
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 58b9866
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[19:09:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[19:09:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:09:28] [Server thread/INFO]: Time elapsed: 340 ms
-[19:09:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:09:28] [Server thread/INFO]: Time elapsed: 200 ms
-[19:09:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:09:28] [Server thread/INFO]: Time elapsed: 91 ms
-[19:09:28] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
-[19:09:29] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[19:09:29] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[19:09:29] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[19:09:29] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[19:09:29] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[19:09:30] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
-[19:09:30] [Server thread/INFO]: [Essentials] Using locale en
-[19:09:30] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[19:09:30] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[19:09:31] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[19:09:31] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[19:09:31] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[19:09:31] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.0.2
-[19:09:32] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[19:09:32] [Server thread/INFO]: [Multiverse-Core] Version 5.0.2 (API v5.0) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[19:09:32] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
-[19:09:32] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
-[19:09:32] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.23
-[19:09:32] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_20_R3
-[19:09:32] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
-[19:09:32] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.1
-[19:09:33] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[19:09:33] [Server thread/INFO]: Running delayed init tasks
-[19:09:33] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[19:09:33] [Server thread/INFO]: Done (13.074s)! For help, type "help"
-[19:09:33] [Server thread/INFO]: Timings Reset
-[19:09:50] [User Authenticator #0/INFO]: UUID of player Fabysxde1 is 46d4e2ab-e3ee-3f05-9bbe-4b9527d8c7f9
-[19:09:51] [Server thread/INFO]: Fabysxde1 joined the game
-[19:09:51] [Server thread/INFO]: Fabysxde1[/127.101.9.185:46403] logged in with entity id 218 at ([world]5.159868172181511, 93.0, -5.753619644242378)
-[19:10:49] [Server thread/INFO]: Fabysxde1 issued server command: /mv create Anarquico normal
-[19:10:59] [Server thread/INFO]: Preparing start region for dimension minecraft:anarquico
-[19:10:59] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-497 (MC: 1.20.4) ---
-[19:10:59] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[19:10:59] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:10:59] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[19:10:59] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[19:10:59] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[19:10:59] [Paper Watchdog Thread/ERROR]: Entity UUID: 46d4e2ab-e3ee-3f05-9bbe-4b9527d8c7f9
-[19:10:59] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (6.251090239895771, 93.0, -2.9536422201300914)
-[19:10:59] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
-[19:10:59] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[5.951090227974842, 93.0, -3.2536422320510203] -> [6.5510902518167, 94.79999995231628, -2.6536422082091624]
-[19:10:59] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 194
-[19:10:59] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:10:59] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[19:10:59] [Paper Watchdog Thread/ERROR]: 	PID: 36 | Suspended: false | Native: false | State: RUNNABLE
-[19:10:59] [Paper Watchdog Thread/ERROR]: 	Stack:
-[19:10:59] [Server thread/INFO]: Time elapsed: 113 ms
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache$StrongAccessEntry.getAccessTime(LocalCache.java:1029)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache.isExpired(LocalCache.java:1804)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache$Segment.getLiveValue(LocalCache.java:2749)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2066)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache.get(LocalCache.java:4012)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4035)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5013)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.21.1.jar//com.earth2me.essentials.userstorage.ModernUserMap.getUser(ModernUserMap.java:77)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.21.1.jar//com.earth2me.essentials.userstorage.ModernUserMap.loadUncachedUser(ModernUserMap.java:137)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.21.1.jar//com.earth2me.essentials.userstorage.ModernUserMap.getUser(ModernUserMap.java:88)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.21.1.jar//com.earth2me.essentials.Essentials.getUser(Essentials.java:1077)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.21.1.jar//com.earth2me.essentials.EssentialsPlayerListener.onPlayerMove(EssentialsPlayerListener.java:223)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor27.execute(Unknown Source)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:81)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:615)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleMovePlayer(ServerGamePacketListenerImpl.java:1576)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.handle(ServerboundMovePlayerPacket.java:29)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$PosRot.handle(ServerboundMovePlayerPacket.java:88)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:54)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda/0x000071c29d736098.run(Unknown Source)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1465)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:123)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1442)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1365)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:112)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1336)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.prepareLevels(MinecraftServer.java:817)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.CraftServer.createWorld(CraftServer.java:1408)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		org.bukkit.Bukkit.createWorld(Bukkit.java:835)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		org.bukkit.WorldCreator.createWorld(WorldCreator.java:502)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:755)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x000071c29d2e3878.apply(Unknown Source)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:75)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:753)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x000071c29d832748.apply(Unknown Source)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.core.world.WorldManager.doCreateWorld(WorldManager.java:261)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x000071c29d8322d8.apply(Unknown Source)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:186)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.core.world.WorldManager.createWorld(WorldManager.java:232)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.core.commands.CreateCommand.onCreateCommand(CreateCommand.java:80)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.invoke.LambdaForm$DMH/0x000071c29d838400.invokeVirtual(LambdaForm$DMH)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.invoke.LambdaForm$MH/0x000071c29d83a000.invoke(LambdaForm$MH)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:157)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.reflect.Method.invoke(Method.java:580)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.0.2.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x000071c29d83e588.execute(Unknown Source)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:336)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:323)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2230)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2190)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.PlayerConnection$$Lambda/0x000071c29d836410.run(Unknown Source)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.IAsyncTaskHandler$$Lambda/0x000071c29d836628.get(Unknown Source)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1465)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:123)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1442)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1365)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1343)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1232)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000071c29cb67d28.run(Unknown Source)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
-[19:10:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
-[19:10:59] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:10:59] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[19:10:59] [Paper Watchdog Thread/ERROR]: ------------------------------
-[19:11:27] [Server thread/INFO]: Fabysxde1 issued server command: /mv create Survival 1.20.4
-[19:11:41] [Server thread/INFO]: Fabysxde1 issued server command: /mv create survival1.20.4 normal
-[19:11:49] [Server thread/INFO]: Preparing start region for dimension minecraft:survival1.20.4
-[19:11:49] [Server thread/INFO]: Time elapsed: 81 ms
-[19:12:58] [Server thread/INFO]: Fabysxde1 issued server command: /mv create spawn normal --world-type flat
-[19:12:58] [Server thread/ERROR]: No key layers in MapLike[{}]
-[19:12:58] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
-[19:12:58] [Server thread/INFO]: Time elapsed: 33 ms
+[19:28:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[19:28:55] [Server thread/INFO]: Default game type: SURVIVAL
+[19:28:55] [Server thread/INFO]: Generating keypair
+[19:28:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:28:55] [Server thread/INFO]: Using epoll channel type
+[19:28:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:28:55] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[19:28:56] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.8
+[19:28:57] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:28:57] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+[19:28:57] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.0.2
+[19:28:57] [Server thread/INFO]: [NametagEdit] Loading server plugin NametagEdit v4.5.23
+[19:28:57] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.1
+[19:28:57] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.0
+[19:28:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:28:57] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.8
+[19:28:58] [Server thread/INFO]:         __    
+[19:28:58] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.8
+[19:28:58] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:28:58] [Server thread/INFO]: 
+[19:28:58] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:28:59] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:28:59] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:28:59] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1899ms)
+[19:28:59] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.0
+[19:29:00] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
+[19:29:01] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[19:29:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:29:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:29:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:29:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:29:01] [Server thread/INFO]: Preparing level "world"
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.0
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 58b9866
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[19:29:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[19:29:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:29:02] [Server thread/INFO]: Time elapsed: 307 ms
+[19:29:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:29:02] [Server thread/INFO]: Time elapsed: 225 ms
+[19:29:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:29:02] [Server thread/INFO]: Time elapsed: 82 ms
+[19:29:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[19:29:03] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[19:29:03] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[19:29:03] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[19:29:03] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[19:29:03] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[19:29:03] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[19:29:03] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[19:29:04] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[19:29:04] [Server thread/INFO]: [Essentials] Using locale en
+[19:29:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:29:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:29:05] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[19:29:05] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[19:29:05] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[19:29:05] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.0.2
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 0.0 to 1.0...
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted adjust-spawn to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted allow-flight to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted allow-weather to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted auto-heal to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted auto-load to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted bed-respawn to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted entry-fee.amount to double 0.0
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Deleted entryfee
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted generator to null
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted hidden to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted hunger to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted keep-spawn-in-memory to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted player-limit to integer 0
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted pvp to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted scale to double 0.0
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted seed to long 0
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted spawning.animals.spawn to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted spawning.animals.tick-rate to integer 0
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted spawning.monsters.spawn to boolean false
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Converted spawning.monsters.tick-rate to integer 0
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Entry fee currency: 
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 1.0 to 1.1...
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Migrating config from version 1.1 to 1.2...
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.animals to spawning.animal
+[19:29:06] [Server thread/INFO]: [Multiverse-Core] Moved path spawning.monsters to spawning.monster
+[19:29:06] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[19:29:08] [Server thread/INFO]: Time elapsed: 1950 ms
+[19:29:08] [Server thread/INFO]: Preparing start region for dimension minecraft:anarquico
+[19:29:08] [Server thread/INFO]: Time elapsed: 75 ms
+[19:29:09] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[19:29:09] [Server thread/INFO]: [Multiverse-Core] Version 5.0.2 (API v5.0) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[19:29:09] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[19:29:09] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[19:29:09] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.23
+[19:29:09] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_20_R3
+[19:29:09] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
+[19:29:09] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.1
+[19:29:09] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[19:29:10] [Server thread/INFO]: Running delayed init tasks
+[19:29:10] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[19:29:10] [Server thread/INFO]: Done (16.973s)! For help, type "help"
+[19:29:10] [Server thread/INFO]: Timings Reset
+[19:29:18] [User Authenticator #0/INFO]: UUID of player Fabysxde1 is 46d4e2ab-e3ee-3f05-9bbe-4b9527d8c7f9
+[19:29:19] [Server thread/INFO]: Fabysxde1 joined the game
+[19:29:19] [Server thread/INFO]: Fabysxde1[/127.101.9.185:37299] logged in with entity id 391 at ([world]5.716411280426516, 93.0, -4.151499732666985)
+[19:29:35] [Server thread/INFO]: Fabysxde1 issued server command: /mv tp spawn
+[19:29:41] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:crockery
+[19:29:41] [Server thread/WARN]: Skipping Entity with id handcrafted:fancy_painting
+[19:29:41] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:29:41] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:29:41] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:29:41] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:29:41] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:29:41] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:29:41] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:29:48] [Server thread/INFO]: Fabysxde1 issued server command: /gamemode creative
+[19:29:48] [Server thread/INFO]: Fabysxde1 fell out of the world
+[19:29:58] [Server thread/INFO]: Fabysxde1 issued server command: /mv tp spawn
+[19:30:07] [Server thread/INFO]: Fabysxde1 issued server command: /gamemode creative
+[19:30:12] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:crockery
+[19:30:12] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:12] [Server thread/WARN]: Skipping Entity with id handcrafted:fancy_painting
+[19:30:12] [Server thread/WARN]: Skipping Entity with id handcrafted:fancy_painting
+[19:30:12] [Server thread/WARN]: Skipping Entity with id handcrafted:fancy_painting
+[19:30:13] [Server thread/WARN]: Skipping Entity with id cobblemon:pokemon
+[19:30:15] [Server thread/WARN]: Skipping Entity with id epicsamurai:bullet
+[19:30:15] [Server thread/WARN]: Skipping Entity with id epicsamurai:bullet
+[19:30:15] [Server thread/WARN]: Skipping Entity with id cobblemon:pokemon
+[19:30:15] [Server thread/WARN]: Skipping BlockEntity with id xkdeco:mimic_wall
+[19:30:15] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:15] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:15] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:15] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:15] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:15] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:15] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:15] [Server thread/WARN]: Skipping Entity with id epicsamurai:bullet
+[19:30:16] [Server thread/WARN]: Skipping Entity with id handcrafted:fancy_painting
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping Entity with id epicsamurai:bullet
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping Entity with id epicsamurai:bullet
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:crockery
+[19:30:16] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:16] [Server thread/WARN]: Skipping Entity with id handcrafted:fancy_painting
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id xkdeco:mimic_wall
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[19:30:20] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:crockery
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id xkdeco:mimic_wall
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id xkdeco:mimic_wall
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[19:30:20] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[19:30:20] [Server thread/WARN]: Skipping Entity with id cobblemon:pokemon
+[19:30:20] [Server thread/WARN]: Skipping Entity with id epicsamurai:bullet
+[19:30:20] [Server thread/WARN]: Skipping Entity with id epicsamurai:bullet
+[19:30:20] [Server thread/WARN]: Skipping Entity with id epicsamurai:bullet
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:20] [Server thread/WARN]: Unable to load item from: {Count:1b,id:"cobblemon:beast_ball"}
+[19:30:20] [Server thread/WARN]: Unable to load item from: {Count:1b,id:"epicsamurai:katana_kitsune_blue",tag:{Damage:0}}
+[19:30:20] [Server thread/WARN]: Unable to load item from: {Count:1b,id:"epicsamurai:katana_kitsune",tag:{Damage:0}}
+[19:30:20] [Server thread/WARN]: Unable to load item from: {Count:1b,id:"epicsamurai:tetsubo_netherite",tag:{Damage:0}}
+[19:30:20] [Server thread/WARN]: Unable to load item from: {Count:1b,id:"epicsamurai:shuko",tag:{Damage:0}}
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id cobblemon:healing_machine
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id cobblemon:healing_machine
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id cobblemon:pasture
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id cobblemon:healing_machine
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id cobblemon:healing_machine
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id cobblemon:pc
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id cobblemon:healing_machine
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id cobblemon:pc
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:crockery
+[19:30:24] [Server thread/WARN]: Skipping Entity with id epicsamurai:bullet
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:24] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:25] [Server thread/WARN]: Skipping Entity with id epicsamurai:bullet
+[19:30:25] [Server thread/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[19:30:25] [Server thread/WARN]: Ignoring unknown attribute 'forge:step_height_addition'
+[19:30:25] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:25] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:25] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:30:25] [Server thread/WARN]: Skipping BlockEntity with id handcrafted:container
+[19:31:01] [Server thread/WARN]: Skipping Entity with id epicsamurai:bullet
+[19:33:01] [Server thread/INFO]: Fabysxde1 issued server command: /setspawn
+[19:33:06] [Server thread/INFO]: Fabysxde1 issued server command: /spawn
+[19:33:22] [Server thread/INFO]: Fabysxde1 issued server command: /spawn
+[19:34:53] [Server thread/INFO]: Fabysxde1 issued server command: /spawn
+[19:35:06] [Server thread/INFO]: Fabysxde1 issued server command: /spawn
+[19:35:13] [Server thread/INFO]: Fabysxde1 issued server command: /time set day
+[19:36:38] [Server thread/INFO]: Fabysxde1 issued server command: /kill
+[19:36:45] [Server thread/INFO]: Fabysxde1 issued server command: /kill Fabysxde1
+[19:36:45] [Server thread/INFO]: Fabysxde1 died
+[19:37:25] [Server thread/INFO]: Fabysxde1 lost connection: Disconnected
+[19:37:25] [Server thread/INFO]: Fabysxde1 left the game
